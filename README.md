@@ -1,7 +1,5 @@
-
-
 <div align="center">
-    <a href="https://github.com/jeffjiang13/3d-portfolio">
+    <a href="https://github.com/arsaz101/3d_portfolio_arsaz">
         <img src="src/assets/logo3.png" alt="3D Portfolio Logo" width="235" height="150">
     </a>
 </div>
@@ -13,7 +11,7 @@
 </p>
 
 <p align="center">
-    <a href="https://jeffjiang.vercel.app/"><strong>🚀 View Demo</strong></a>
+    <a href="/"><strong>🚀 View Demo</strong></a>
 </p>
 
 ## About The Project
@@ -40,6 +38,7 @@ To get a local copy up and running, follow these simple steps:
 ### Prerequisites
 
 - npm
+
 ```sh
 npm install npm@latest -g
 ```
@@ -47,14 +46,19 @@ npm install npm@latest -g
 ### Installation
 
 1. Clone the repo
+
 ```sh
-git clone https://github.com/jeffjiang13/3d-portfolio.git
+git clone https://github.com/arsaz101/3d_portfolio_arsaz.git
 ```
+
 2. Install NPM packages
+
 ```sh
 npm install
 ```
+
 3. Start the project
+
 ```sh
 npm start
 ```

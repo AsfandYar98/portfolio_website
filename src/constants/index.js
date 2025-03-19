@@ -45,8 +45,6 @@ import {
   matrixai,
   zapflow,
   notable,
-
-
 } from "../assets";
 export const navLinks = [
   {
@@ -227,7 +225,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I can't say enough good things about Jeff. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, Jeff is your guy.",
+      "I can't say enough good things about Arsal. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, Arsal is your guy.",
     name: "Halley Bennett",
     designation: "",
     company: "Hack Reactor",
@@ -235,7 +233,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Jeff is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
+      "Arsal is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
     name: "Yishak Wesego",
     designation: "",
     company: "Hack Reactor",
@@ -243,7 +241,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've worked with a lot of engineers over the years, and Jeff is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
+      "I've worked with a lot of engineers over the years, and Arsal is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
     name: "Megan Stewart",
     designation: "",
     company: "Hack Reactor",
