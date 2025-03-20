@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { jeff } from "../assets";
+// import { jeff } from "../assets";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <div
@@ -59,8 +59,8 @@ const About = () => {
           utilizing technologies such as Next.js, Strapi, Tailwind, Firebase,
           and Redux. I am also experienced in managing the full project
           lifecycle from setup to deployment. My journey in tech is supported by
-          my prior experiences, including my time as a Police Officer at NYPD
-          and a Restaurant Manager, which honed my skills in teamwork,
+          my prior experiences, including my time as an independent contractor
+          for software companies, which honed my skills in teamwork,
           problem-solving, and operations management. Feel free to explore my
           projects and get in touch at{" "}
           <a
@@ -80,11 +80,11 @@ const About = () => {
               options={{ max: 45, scale: 1, speed: 450 }}
               className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden"
             >
-              <img
-                src={jeff}
+              {/* <img
+                src={}
                 alt="jeff"
                 className="w-full h-full object-contain"
-              />
+              /> */}
             </div>
           </div>
         </Tilt>
