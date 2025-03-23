@@ -127,17 +127,17 @@ const Astronaut = (props) => {
           </group>
         </group>
       </group>
-      <OrbitControls
+      {/* <OrbitControls
         enablePan={false}
         enableZoom={false}
-        enableDamping={true}
+        enableDamping={false}
         dampingFactor={0.1}
         autoRotate={false}
         minPolarAngle={Math.PI / 2}
         maxPolarAngle={Math.PI / 2}
         minAzimuthAngle={-1}
         maxAzimuthAngle={1}
-      />
+      /> */}
     </a.group>
   );
 };
