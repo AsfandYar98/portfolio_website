@@ -7,6 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 // import { jeff } from "../assets";
+import { arsal } from "../assets";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <div
@@ -80,11 +81,11 @@ const About = () => {
               options={{ max: 45, scale: 1, speed: 450 }}
               className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden"
             >
-              {/* <img
-                src={}
-                alt="jeff"
+              <img
+                src={arsal}
+                alt="arsal"
                 className="w-full h-full object-contain"
-              /> */}
+              />
             </div>
           </div>
         </Tilt>
