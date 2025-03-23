@@ -1,9 +1,3 @@
-<div align="center">
-    <a href="https://github.com/arsaz101/3d_portfolio_arsaz">
-        <img src="src/assets/logo3.png" alt="3D Portfolio Logo" width="235" height="150">
-    </a>
-</div>
-
 <h1 align="center">3D Portfolio Website</h1>
 
 <p align="center">
