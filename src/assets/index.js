@@ -52,6 +52,7 @@ import matrixai from "./matrixai.png";
 import beeclone from "./beeclone.png";
 import notable from "./notable.png";
 import zapflow from "./zapflow.png";
+import greece from "./greece_potential.png";
 
 export {
   logo,
@@ -106,4 +107,5 @@ export {
   beeclone,
   notable,
   zapflow,
+  greece,
 };

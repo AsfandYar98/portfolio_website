@@ -45,6 +45,7 @@ import {
   matrixai,
   zapflow,
   notable,
+  greece,
 } from "../assets";
 export const navLinks = [
   {
@@ -295,13 +296,13 @@ const imageProjects = [
   //   title: "ChiqueChickShop",
   //   description: "",
   // },
-  // {
-  //   id: 3,
-  //   image: portfolio17,
-  //   url: "https://jj-tailortech.vercel.app/",
-  //   title: "TailorTech",
-  //   description: "",
-  // },
+  {
+    id: 3,
+    image: greece,
+    url: "",
+    title: "Greece Agrivoltaic Potential",
+    description: "",
+  },
   {
     id: 4,
     image: shop,
@@ -426,28 +427,28 @@ const projects = [
   //   source_code_link: "https://github.com/jeffjiang13/notable",
   //   liveUrl: "https://jj-notable.up.railway.app/",
   // },
-  // {
-  //   name: "ZapFlow",
-  //   description:
-  //     "ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has the features you need to connect various services and automate your workflows efficiently.",
-  //   tags: [
-  //     {
-  //       name: "Next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Neon",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: zapflow,
-  //   source_code_link: "https://github.com/jeffjiang13/saas-automation",
-  //   liveUrl: "https://jj-zapflow.vercel.app/",
-  // },
+  {
+    name: "Greece Agrivoltaic Potential",
+    description:
+      "This project aims to identify optimal locations in Greece for agrivoltaic systems by conducting a comprehensive analysis of geopolitical and environmental factors. The goal is to maximize the effectiveness of land use for both agriculture and solar energy generation, while considering policy constraints, energy infrastructure, and local economic conditions.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jupyter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Pandas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zapflow,
+    source_code_link: "https://github.com/jeffjiang13/saas-automation",
+    liveUrl: "https://jj-zapflow.vercel.app/",
+  },
   {
     name: "Beeclone",
     description:
