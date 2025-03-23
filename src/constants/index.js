@@ -384,6 +384,28 @@ const imageProjects = [
 
 const projects = [
   {
+    name: "Greece Agrivoltaic Potential",
+    description:
+      "This project aims to identify optimal locations in Greece for agrivoltaic systems by conducting a comprehensive analysis of geopolitical and environmental factors. The goal is to maximize the effectiveness of land use for both agriculture and solar energy generation, while considering policy constraints, energy infrastructure, and local economic conditions.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jupyter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Pandas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: greece,
+    source_code_link: "https://github.com/jeffjiang13/saas-automation",
+    liveUrl: "https://jj-zapflow.vercel.app/",
+  },
+  {
     name: "SmartRep AI",
     description:
       "SmartRep AI is an advanced AI chatbot designed to streamline customer interactions, book appointments, process payments, and manage leads. It seamlessly integrates with any website, offering a customizable interface and a suite of powerful features to enhance user experience and business operations.",
@@ -427,28 +449,7 @@ const projects = [
   //   source_code_link: "https://github.com/jeffjiang13/notable",
   //   liveUrl: "https://jj-notable.up.railway.app/",
   // },
-  {
-    name: "Greece Agrivoltaic Potential",
-    description:
-      "This project aims to identify optimal locations in Greece for agrivoltaic systems by conducting a comprehensive analysis of geopolitical and environmental factors. The goal is to maximize the effectiveness of land use for both agriculture and solar energy generation, while considering policy constraints, energy infrastructure, and local economic conditions.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Jupyter",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Pandas",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zapflow,
-    source_code_link: "https://github.com/jeffjiang13/saas-automation",
-    liveUrl: "https://jj-zapflow.vercel.app/",
-  },
+
   {
     name: "Beeclone",
     description:
