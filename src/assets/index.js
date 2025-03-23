@@ -30,18 +30,18 @@ import django from "./tech/django.png";
 import postgres from "./tech/postgres.png";
 import sql from "./tech/sql.svg";
 import next from "./tech/next.png";
-import vue from "./tech/vue.svg"
+import vue from "./tech/vue.svg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import movie from "./movie.png"
-import shop from "./shop.png"
-import youtube from "./youtube.png"
-import jeff from "./jeff.jpg"
-import liveLink from "./liveLink.png"
-import portfolio15 from "./portfolio15.png"
-import portfolio16 from "./portfolio16.png"
-import portfolio17 from "./portfolio17.png"
+import movie from "./movie.png";
+import shop from "./shop.png";
+import youtube from "./youtube.png";
+// import jeff from "./jeff.jpg"
+import liveLink from "./liveLink.png";
+import portfolio15 from "./portfolio15.png";
+import portfolio16 from "./portfolio16.png";
+import portfolio17 from "./portfolio17.png";
 import LOGO2 from "./LOGO2.webp";
 import tiktok from "./tiktok.png";
 import ig from "./ig.png";
@@ -51,7 +51,6 @@ import matrixai from "./matrixai.png";
 import beeclone from "./beeclone.png";
 import notable from "./notable.png";
 import zapflow from "./zapflow.png";
-
 
 export {
   logo,
@@ -86,7 +85,7 @@ export {
   movie,
   shop,
   youtube,
-  jeff,
+  // jeff,
   python,
   django,
   postgres,
