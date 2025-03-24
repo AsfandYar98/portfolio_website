@@ -36,28 +36,32 @@ const ProjectCard = ({
         />
 
         <div className="absolute inset-0 flex gap-2 justify-end m-3 card-img_hover">
-          <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-              src={github}
-              alt="source code"
-              className="w-2/3 h-2/3 object-contain"
-            />
-          </div>
-          <div
-            onClick={() => {
-              window.open(liveUrl, "_blank");
-            }}
-            className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-              src={livelink}
-              alt="live url"
-              className="w-2/3 h-2/3 object-contain"
-            />
-          </div>
+          {source_code_link && (
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+          )}
+          {liveUrl && (
+            <div
+              onClick={() => {
+                window.open(liveUrl, "_blank");
+              }}
+              className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={livelink}
+                alt="live url"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+          )}
         </div>
       </div>
 
