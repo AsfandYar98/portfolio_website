@@ -1,0 +1,123 @@
+.pillButton {
+  cursor: pointer;
+  position: relative;
+  padding: 2.5vh 0vw;
+  border-radius: 3.75rem;
+  width: 21vw;
+  line-height: 3.5vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  transition: transform 0.3s ease; /* Smooth rotation transition */
+}
+
+.pillButton.negRotate15 {
+  transform: rotate(-15deg);
+}
+
+.pillButton.rotate15 {
+  transform: rotate(15deg);
+}
+
+.pillButton.rotate90 {
+  transform: rotate(90deg);
+}
+
+.pillButton.rotate180 {
+  transform: rotate(180deg);
+}
+
+.pillButton.rotate360 {
+  transform: rotate(360deg);
+}
+
+.pillButton.red {
+  border: 1px solid #800101;
+  background-image: linear-gradient(-180deg, #ff8989 0%, #c01f1f 100%);
+  box-shadow: 0 1rem 1.25rem 0 rgba(195, 22, 22, 0.5),
+    0 -0.25rem 1.5rem rgb(155, 15, 15) inset,
+    0 0.75rem 0.5rem rgba(255, 255, 255, 0.4) inset,
+    0 0.25rem 0.5rem 0 rgb(207, 70, 70) inset;
+}
+
+.pillButton.blue {
+  border: 1px solid #012880; /* Dark blue border */
+  background-image: linear-gradient(
+    -180deg,
+    #89bfff 0%,
+    #1f4fc0 100%
+  ); /* Blue gradient */
+  box-shadow: 0 1rem 1.25rem 0 rgba(22, 75, 195, 0.5),
+    /* Outer blue shadow */ 0 -0.25rem 1.5rem rgb(15, 15, 155) inset,
+    /* Inner dark blue shadow */ 0 0.75rem 0.5rem rgba(255, 255, 255, 0.4) inset,
+    /* Inner white highlight */ 0 0.25rem 0.5rem 0 rgb(70, 70, 207) inset; /* Inner light blue highlight*/
+}
+
+.pillButton.red:hover,
+.pillButton.blue:hover {
+  transform: rotate(0deg); /* Rotate 15 degrees on hover */
+}
+
+.pillButton.red span {
+  color: transparent;
+  background-image: linear-gradient(0deg, #ee8282 0%, #fefafd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 2px rgb(102, 0, 0));
+}
+
+.pillButton.blue span {
+  color: transparent;
+  background-image: linear-gradient(0deg, #828dee 0%, #fefafd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 2px rgb(0, 2, 102));
+}
+
+.pillButton::before {
+  content: "";
+  display: block;
+  height: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 7.5rem);
+  background: #fff;
+  border-radius: 100%;
+
+  opacity: 0.7;
+  background-image: linear-gradient(
+    -270deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 20%,
+    #ffffff 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.pillButton::after {
+  content: "";
+  display: block;
+  height: 0.25rem;
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 7.5rem);
+  background: #fff;
+  border-radius: 100%;
+
+  filter: blur(1px);
+  opacity: 0.05;
+  background-image: linear-gradient(
+    -270deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 20%,
+    #ffffff 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.pad2 {
+  padding: 2vw;
+}
