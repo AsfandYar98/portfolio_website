@@ -432,7 +432,8 @@ const projects = [
     ],
     image: smartrep,
     source_code_link: "https://github.com/arsaz101/chatbot-ai",
-    liveUrl: "https://jj-smartrep.vercel.app/",
+    // liveUrl: "https://jj-smartrep.vercel.app/",
+    liveUrl: "",
   },
   // {
   //   name: "Notable",
@@ -477,7 +478,8 @@ const projects = [
     ],
     image: beeclone,
     source_code_link: "https://github.com/arsaz101/newsletter-clone",
-    liveUrl: "https://jj-newsletter.vercel.app/",
+    // liveUrl: "https://jj-newsletter.vercel.app/",
+    liveUrl: "",
   },
   // {
   //   name: "Matrix AI",
@@ -521,7 +523,8 @@ const projects = [
     ],
     image: linktree,
     source_code_link: "https://github.com/arsaz101/linktree-clone",
-    liveUrl: "https://jj-linktri.vercel.app/",
+    // liveUrl: "https://jj-linktri.vercel.app/",
+    liveUrl: "",
   },
   {
     name: "Instagram Clone,",
@@ -543,7 +546,8 @@ const projects = [
     ],
     image: ig,
     source_code_link: "https://github.com/arsaz101/intagram-clone",
-    liveUrl: "https://quicktele.netlify.app/",
+    // liveUrl: "https://quicktele.netlify.app/",
+    liveUrl: "",
   },
   {
     name: "TikTok Clone",
@@ -565,7 +569,8 @@ const projects = [
     ],
     image: tiktok,
     source_code_link: "https://github.com/arsaz101/tiktok-clone",
-    liveUrl: "https://jj-tiktok.vercel.app/",
+    // liveUrl: "https://jj-tiktok.vercel.app/",
+    liveUrl: "",
   },
   // {
   //   name: "TailorTech",
@@ -653,7 +658,8 @@ const projects = [
     ],
     image: movie,
     source_code_link: "https://github.com/arsaz101/streaming-clone",
-    liveUrl: "https://jj-movie-app.netlify.app/",
+    // liveUrl: "https://jj-movie-app.netlify.app/",
+    liveUrl: "",
   },
   // {
   //   name: "Ecommerce App",
@@ -697,7 +703,8 @@ const projects = [
     ],
     image: youtube,
     source_code_link: "https://github.com/arsaz101/youtube-clone",
-    liveUrl: "https://jj-youtube-clone.netlify.app/",
+    // liveUrl: "https://jj-youtube-clone.netlify.app/",
+    liveUrl: "",
   },
 ];
 
