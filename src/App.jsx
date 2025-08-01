@@ -56,8 +56,32 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="relative z-20 bg-no-repeat bg-center">
-          <Option />
+          <Navbar />
+          <Hero />
+          {/* <StarsCanvas /> */}
         </div>
+        <div className="relative z-0">
+          <About />
+          {/* <StarsCanvas /> */}
+        </div>
+        <div className="relative z-0">
+          <Experience />
+          {/* <StarsCanvas /> */}
+        </div>
+        <div className="relative z-0">
+          <Tech />
+          <Works />
+          {/* <StarsCanvas /> */}
+        </div>
+        <div className="relative z-0">
+          <Feedbacks />
+          {/* <StarsCanvas /> */}
+        </div>
+        <div className="relative z-0">
+          <Contact />
+          {/* <StarsCanvas /> */}
+        </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
