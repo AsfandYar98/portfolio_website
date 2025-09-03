@@ -274,6 +274,14 @@ const imageProjects = [
     title: "SmartRep AI",
     description: "",
   },
+  {
+    id: 2,
+    image: smartrep,
+    url: "",
+    title: "SmartRep AI",
+    description: "",
+  },
+
   // {
   //   id: 2,
   //   image: portfolio16,
