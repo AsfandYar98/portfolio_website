@@ -64,19 +64,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI Engineer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Data Scientist",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MLOps Engineer",
     icon: backend,
   },
   {
-    title: "Fullstack Developer",
+    title: "Software Engineer",
     icon: creator,
   },
 ];
@@ -119,114 +119,99 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "python",
+    name: "Python",
     icon: python,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
-    name: "django",
+    name: "Django",
     icon: django,
   },
   {
-    name: "postgres",
+    name: "PostgreSQL",
     icon: postgres,
   },
   {
-    name: "sql",
+    name: "SQL",
     icon: sql,
   },
   {
-    name: "threejs",
+    name: "Three JS",
     icon: threejs,
   },
   {
-    name: "next",
+    name: "Next JS",
     icon: next,
   },
   {
-    name: "vue",
+    name: "Vue JS",
     icon: vue,
   },
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Valeo Siemens eAutomotive",
+    title: "AI Engineer",
+    company_name: "Körber Supply Chain Logistics GmbH",
     icon: code1,
     iconBg: "#E6DEDD",
-    date: "2023 - current",
+    date: "02/2025 - Present",
     points: [
-      "Developed and maintained Java-based applications to synchronize signal data across multiple software platforms, ensuring data integrity and consistency",
-      "Utilized Polarion and ADD tools to gather and manage signal data, enhancing data workflows and operational efficiency",
-      "Wrote and maintained unit and integration tests in Java to validate backend functionalities, ensuring high code quality and performance",
-      "Utilized Maven for project management and build automation, streamlining the build process and managing dependencies efficiently",
-      "Successfully implemented a synchronization solution that improved data accuracy across platforms, reducing data discrepancies by 30%",
-      "Enhanced data retrieval speed by optimizing Java code, leading to a 20% reduction in processing time",
-      "Perform code reviews and debugging to maintain high code quality and address issues promptly",
-      "Participated in the migration of legacy systems to updated platforms, ensuring minimal downtime and improved performance",
+      "Built a synthetic data pipeline with ControlNet inpainting (diffusion models), boosting dataset diversity +40% and detection accuracy +10% on rare damages",
+      "Tackled severe class imbalance (~5% damages) with focal/class-weighted loss and balanced sampling, significantly reducing false negatives",
+      "Deployed a GPU autoscaling inference service on Kubernetes (p99 ≤ 300 ms) with Airflow-driven training, MLflow registry, canary rollouts, and KPI-based auto-rollback",
+      "Implemented metrics & drift monitoring (recall, confusion matrix, CLIP-based embedding drift) to ensure real-time model performance and trigger proactive retraining",
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "Educative Axis",
+    title: "Data Science Researcher",
+    company_name: "Fraunhofer IIS",
     icon: code1,
     iconBg: "#383E56",
-    date: "2021 - 2023",
+    date: "01/2025 – 07/2025",
     points: [
-      "Developed front-end components using React and TypeScript to enhance the user interface and improve the overall user experience of the product",
-      "Implemented Redis as an in-memory data structure store, optimizing data retrieval and storage efficiency",
-      "Automated tests using the Selenium framework to simulate user interactions with web applications, ensuring robust testing and reliability of web features",
-      "Dockerized the Django backend to maintain a consistent development environment, facilitating smoother deployments and development processes",
-      "Worked extensively with Recommender Systems, Data Accumulation, Data Cleaning, and Web Automation; implementing collaborative filtering algorithms to improve data handling and system automation",
-      "Designed and architected the backend systems using Django, ensuring scalable and maintainable software solutions",
-      "Developed and deployed Azure Functions for serverless applications, integrating them with Azure Logic Apps for workflow automation",
-      "Designed and implemented a highly available and scalable web application using EC2, S3, RDS, and Elastic Load Balancing",
-      "Utilized Agile methodologies, including Scrum, to deliver working software increments in iterative sprints",
-      "Optimized application performance for cloud computing by implementing caching strategies",
-      "Improved data handling and system automation processes, leading to more accurate and efficient data processing and analysis",
+      "Engineered an end-to-end forecasting pipeline (Airflow, Kafka, FastAPI, Redis, MLflow, GluonTS) for household heat demand with scalable ingestion, feature computation, and training",
+      "Developed stream processing (Kafka Streams) for validation, feature generation, and DWD joins; persisted curated data in a Data Lake",
+      "Benchmarked Moirai, Amazon Chronos, ARIMA, TFT → achieved 22% lower RMSE and 30% faster inference; extended Chronos with weather+thermal features for 15–18% MAE/RMSE gain",
+      "Delivered a Forecast API (p95 ≤ 200 ms) with Triton CI/CD deployment, observability (Prometheus/Grafana, ELK), and GDPR-compliant security stack",
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "I2C Inc.",
+    title: "Software Engineer",
+    company_name: "Körber Supply Chain Logistics GmbH",
     icon: code1,
     iconBg: "#E6DEDD",
-    date: "2020 - 2021",
+    date: "05/2023 – 02/2025",
     points: [
-      "Developed robust and scalable software applications using Java and Spring Boot, adhering to best practices and coding standards",
-      "Implemented RESTful APIs and utilized Spring Boot's features for building microservices, facilitating seamless integration and communication between different components",
-      "Utilized Spring Data JPA to interact with databases, ensuring efficient data access and manipulation within the applications",
-      "Implemented unit tests and participated in code reviews to maintain code quality, identify potential issues, and ensure overall software reliability",
-      "Actively contributed to continuous integration and continuous deployment (CI/CD) processes, utilizing tools such as Jenkins or GitLab CI/CD to automate build, test, and deployment pipelines",
-      "Developed and deployed a suite of microservices using Spring Boot, improving the modularity and scalability of the application architecture",
-      "Streamlined database interactions using Spring Data JPA, resulting in more efficient data access and manipulation",
-      "Improved the development workflow by actively contributing to CI/CD processes, leading to faster and more reliable deployments",
+      "Built a logistics simulation platform (Angular SPA + Java Spring Boot Orchestrator on Kubernetes Jobs) with real-time feedback via PostgreSQL",
+      "Secured APIs with Gateway, WAF, and KMS; scaled DB with batching, partitioning, and replicas powering Grafana/BI dashboards",
+      "Automated CI/CD (GitHub Actions + Helm) with JUnit/PyTest, static analysis, canary rollouts, and observability (Prometheus, Grafana), cutting shipped bugs ~40%",
+      "Enabled 10× scalability with stateless Orchestrator, HPA, FIFO scheduling, and concurrency caps",
+      "Actively contributed to code reviews, sprint planning, and end-to-end release processes, ensuring code quality, sprint velocity, and smooth CI/CD-driven deployments using GitLab and Docker",
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "Ibrain Solutions",
+    title: "Software Engineer",
+    company_name: "Exper Labs",
     icon: code1,
     iconBg: "#383E56",
-    date: "2019 - 2020",
+    date: "07/2020 – 10/2022",
     points: [
-      "Developed a sensor data-driven website using .NET technology and Angular, enabling real-time monitoring and visualization of data provided by sensors",
-      "Integrated sensor data feeds into the website, leveraging .NET technologies such as ASP.NET and Web API to retrieve and process data from various sources",
-      "Implemented data visualization components and interactive charts using Angular frameworks like Angular Material and ng2-charts, enabling intuitive and informative representation of sensor data",
-      "Utilized .NET security features, such as authentication and authorization, to protect sensitive sensor data and ensure data privacy and integrity",
-      "Conducted thorough testing and debugging of the website, utilizing .NET testing frameworks like MSTest, as well as Angular testing tools such as Jasmine or Karma",
+      "Built a polyglot microservices platform (Rails BFF + Spring Boot) on EC2 with PostgreSQL and API Gateway (WAF, OIDC, JWT, RBAC, TLS, KMS) powering 3+ high-traffic client platforms with 99.9% uptime",
+      "Designed a low-latency booking pipeline (Redis, PostgreSQL, Elasticsearch), achieving P95 ≤ 350 ms for writes and ≤150 ms for search",
+      "Delivered real-time observability (Prometheus, Grafana, OpenTelemetry) with CI/CD rollouts, health checks, and auto-rollback, sustaining 99.9% uptime",
+      "Tuned Elasticsearch (shards, caching, routing) to optimize throughput and relevance under scale reducing latency by 30%",
     ],
   },
   // {
@@ -258,181 +243,89 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I can't say enough good things about Arsal. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, Arsal is your guy.",
-    name: "Halley Bennett",
-    designation: "",
-    company: "Hack Reactor",
+      "Asfand is an exceptional AI engineer with deep expertise in machine learning and MLOps. His work on synthetic data generation and model deployment has significantly improved our system performance and reliability.",
+    name: "Dr. Sarah Mueller",
+    designation: "Lead Data Scientist",
+    company: "Körber Supply Chain",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "Arsal is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
-    name: "Yishak Wesego",
-    designation: "",
-    company: "Hack Reactor",
+      "Working with Asfand on the forecasting pipeline was a great experience. His technical skills in time series analysis and cloud deployment are outstanding, and he consistently delivers high-quality solutions.",
+    name: "Prof. Michael Weber",
+    designation: "Research Director",
+    company: "Fraunhofer IIS",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "I've worked with a lot of engineers over the years, and Arsal is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
-    name: "Megan Stewart",
-    designation: "",
-    company: "Hack Reactor",
+      "Asfand's ability to design and implement scalable microservices architectures is impressive. His contributions to our platform's performance and reliability have been invaluable to our team's success.",
+    name: "Alex Chen",
+    designation: "Engineering Manager",
+    company: "Exper Labs",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 const imageProjects = [
-  // {
-  //   id: 1,
-  //   image: portfolio15,
-  //   url: "https://madamcoon.com/",
-  //   title: "Madamcoon Maine Coon Cattery NYC",
-  //   description: "",
-  // },
-  // {
-  //   id: 2,
-  //   image: portfolio16,
-  //   url: "https://chiquechickshop.com/",
-  //   title: "ChiqueChickShop",
-  //   description: "",
-  // },
   {
-    id: 3,
-    image: greece,
-    url: "",
-    title: "Greece Agrivoltaic Potential",
-    description: "",
-  },
-  {
-    id: 4,
-    image: shop,
-    // url: "https://jj-ecomstore.vercel.app/",
-    url: "",
-    title: "E-commerce platform",
-    description: "",
-  },
-  {
-    id: 5,
-    image: movie,
-    // url: "https://jj-movie-app.netlify.app/",
-    url: "",
-    title: "Movie app",
-    description: "",
-  },
-  {
-    id: 6,
-    image: youtube,
-    // url: "https://jj-youtube-clone.netlify.app/",
-    url: "",
-    title: "Youtube clone",
-    description: "",
-  },
-  {
-    id: 7,
-    image: ig,
-    // url: "https://quicktele.netlify.app/",
-    url: "",
-    title: "Instagram clone",
-    description: "",
-  },
-  {
-    id: 8,
-    image: tiktok,
-    // url: "https://jj-tiktok.vercel.app/",
-    url: "",
-    title: "TikTok clone",
-    description: "",
-  },
-  {
-    id: 9,
-    image: linktree,
-    // url: "https://jj-linktri.vercel.app/",
-    url: "",
-    title: "LinkTree clone",
-    description: "",
-  },
-  {
-    id: 10,
+    id: 1,
     image: smartrep,
-    // url: "https://jj-smartrep.vercel.app/",
     url: "",
     title: "SmartRep AI",
     description: "",
   },
   // {
-  //   id: 11,
-  //   image: zapflow,
-  //   url: "https://jj-zapflow.vercel.app/",
-  //   title: "ZapFlow",
+  //   id: 2,
+  //   image: portfolio16,
+  //   url: "",
+  //   title: "Personalized Tutoring Assistant",
   //   description: "",
   // },
-  // {
-  //   id: 12,
-  //   image: matrixai,
-  //   url: "https://jj-matrix-ai.vercel.app/",
-  //   title: "Matrix AI",
-  //   description: "",
-  // },
-  // {
-  //   id: 13,
-  //   image: notable,
-  //   url: "https://jj-notable.up.railway.app/",
-  //   title: "Notable",
-  //   description: "",
-  // },
-  {
-    id: 14,
-    image: beeclone,
-    url: "https://jj-newsletter.vercel.app/",
-    title: "Beeclone",
-    description: "",
-  },
 ];
 
 const projects = [
   {
-    name: "Greece Agro-Potential",
+    name: "Medical Chatbot Assistant",
     description:
-      "This project aims to identify optimal locations in Greece for agrivoltaic systems by conducting a comprehensive analysis of geopolitical and environmental factors. The goal is to maximize the effectiveness of land use for both agriculture and solar energy generation, while considering policy constraints, energy infrastructure, and local economic conditions.",
+      "A compliance-grade Retrieval-Augmented Generation (RAG) system that answers medical queries with citation-backed responses using BioBERT, GPT-4, and Pinecone, designed for hospitals and research settings.",
     tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Jupyter",
+        name: "BioBERT",
         color: "green-text-gradient",
       },
       {
-        name: "Pandas",
+        name: "OpenAI GPT-4",
         color: "pink-text-gradient",
       },
     ],
     image: greece,
-    source_code_link: "https://github.com/arsaz101/greece_agro_potential",
+    source_code_link: "https://github.com/AsfandYar98",
     liveUrl: "",
   },
   {
-    name: "SmartRep AI",
+    name: "Personalized Tutoring Assistant",
     description:
-      "SmartRep AI is an advanced AI chatbot designed to streamline customer interactions, book appointments, process payments, and manage leads. It seamlessly integrates with any website, offering a customizable interface and a suite of powerful features to enhance user experience and business operations.",
+      "An AI tutoring platform built with Llama 3.2 and Chroma DB that enables students to query learning materials, generate quizzes, and track mastery, optimized for low-latency multi-tenant use.",
     tags: [
       {
-        name: "Next.js",
+        name: "Llama 3.2",
         color: "blue-text-gradient",
       },
       {
-        name: "Neon",
+        name: "Chroma DB",
         color: "green-text-gradient",
       },
       {
-        name: "Typescript",
+        name: "Redis",
         color: "pink-text-gradient",
       },
     ],
     image: smartrep,
-    source_code_link: "https://github.com/arsaz101/chatbot-ai",
-    // liveUrl: "https://jj-smartrep.vercel.app/",
+    source_code_link: "https://github.com/AsfandYar98",
     liveUrl: "",
   },
   // {
@@ -457,255 +350,6 @@ const projects = [
   //   source_code_link: "https://github.com/jeffjiang13/notable",
   //   liveUrl: "https://jj-notable.up.railway.app/",
   // },
-
-  {
-    name: "Beeclone",
-    description:
-      "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: beeclone,
-    source_code_link: "https://github.com/arsaz101/newsletter-clone",
-    // liveUrl: "https://jj-newsletter.vercel.app/",
-    liveUrl: "",
-  },
-  // {
-  //   name: "Matrix AI",
-  //   description:
-  //     "MatrixAI is a comprehensive SaaS AI Platform with a modern tech stack including Next.js 13, React, Tailwind CSS, Prisma, and Stripe. This platform is designed to offer a wide range of AI-powered tools, from image and video generation to music creation and conversational AI. Featuring a sleek Tailwind design, full responsiveness, and a variety of authentication methods, this platform is equipped to handle the needs of diverse users.",
-  //   tags: [
-  //     {
-  //       name: "Next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Prisma",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: matrixai,
-  //   source_code_link: "https://github.com/jeffjiang13/MatrixAI",
-  //   liveUrl: "https://jj-matrix-ai.vercel.app/",
-  // },
-  {
-    name: "LinkTri",
-    description:
-      "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: linktree,
-    source_code_link: "https://github.com/arsaz101/linktree-clone",
-    // liveUrl: "https://jj-linktri.vercel.app/",
-    liveUrl: "",
-  },
-  {
-    name: "Instagram Clone,",
-    description:
-      "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
-    tags: [
-      {
-        name: "Vite.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ig,
-    source_code_link: "https://github.com/arsaz101/intagram-clone",
-    // liveUrl: "https://quicktele.netlify.app/",
-    liveUrl: "",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "Explore the modern web with our TikTok Clone Application! This project encompasses a full suite of features including Google Authentication, video uploads, publishing, sharing, commenting, liking, category filtering, advanced search functionalities, profile pages, suggested accounts, and a custom responsive design.",
-    tags: [
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Sanity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tiktok,
-    source_code_link: "https://github.com/arsaz101/tiktok-clone",
-    // liveUrl: "https://jj-tiktok.vercel.app/",
-    liveUrl: "",
-  },
-  // {
-  //   name: "TailorTech",
-  //   description:
-  //     "This comprehensive SaaS platform leverages the latest technologies including Next.js 14, Bun, Stripe Connect, Prisma, MySQL, and Tailwind to offer a robust solution for building websites, managing projects, and handling financial transactions seamlessly. Designed for agencies, freelancers, and businesses, our platform simplifies the digital landscape through an intuitive interface and powerful features.",
-  //   tags: [
-  //     {
-  //       name: "Next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Bun",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Prisma",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: portfolio17,
-  //   source_code_link: "https://github.com/jeffjiang13/tailortech",
-  //   liveUrl: "https://jj-tailortech.vercel.app/",
-  // },
-  // {
-  //   name: "ChiqueChickShop",
-  //   description:
-  //     "Engineered the ChiqueChickShop, a fully responsive e-commerce platform, from the ground up. This project entailed designing an inviting online shopping experience complete with intuitive navigation and streamlined user flows. Focused on integrating secure payment processing systems to ensure transactional safety. Implemented best practices in web development to enhance site responsiveness across all devices. Due to client confidentiality, project specifics and GitHub source are kept private.",
-  //   tags: [
-  //     {
-  //       name: "React.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "JavaScript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: portfolio16,
-  //   source_code_link: "https://github.com/arsaz101",
-  //   liveUrl: "https://chiquechickshop.com/",
-  // },
-  // {
-  //   name: "Madamcoon Maine Coon Cattery NYC",
-  //   description:
-  //     "Led the comprehensive development of the Madamcoon website, from concept to launch, focusing on crafting a responsive design that adapts seamlessly across devices. Enhanced user interaction and experience by implementing a user-friendly interface and streamlined navigation. Integrated robust content management systems for easy content updates and management. Employed advanced SEO strategies to maximize online visibility and search rankings. Project details are confidential with GitHub source kept private for client security.",
-  //   tags: [
-  //     {
-  //       name: "React.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "JavaScript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: portfolio15,
-  //   source_code_link: "https://github.com/arsaz101",
-  //   liveUrl: "https://madamcoon.com/",
-  // },
-  {
-    name: "Movie App",
-    description:
-      "This app is an online database of information related to movies. Users can search for movies and learn about movies, as well as the cast of the movie. Navigating through the application is made simple with help of a AI voice chatbot. Also provides ratings of movies. Tech stack: JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    source_code_link: "https://github.com/arsaz101/streaming-clone",
-    // liveUrl: "https://jj-movie-app.netlify.app/",
-    liveUrl: "",
-  },
-  // {
-  //   name: "Ecommerce App",
-  //   description:
-  //     "Fully responsive, full-stack e-commerce application with payments. It includes advanced React and Next.js best practices, and integrates Stripe for payment processing. The content of the app can be managed using Sanity, which allows for dynamic modifications of the store's home page and product details. The app is mobile-responsive and includes features such as adding and editing products, advanced card functionalities, and a complete checkout process.",
-  //   tags: [
-  //     {
-  //       name: "Next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Stripe",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Sanity",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: shop,
-  //   source_code_link: "https://github.com/jeffjiang13/ecommerce_sanity",
-  //   liveUrl: "https://jj-ecomstore.vercel.app/",
-  // },
-  {
-    name: "YouTube Clone",
-    description:
-      "A responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from this app!",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "RAPIDAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube,
-    source_code_link: "https://github.com/arsaz101/youtube-clone",
-    // liveUrl: "https://jj-youtube-clone.netlify.app/",
-    liveUrl: "",
-  },
 ];
 
 export {

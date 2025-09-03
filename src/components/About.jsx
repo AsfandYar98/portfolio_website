@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 // import { jeff } from "../assets";
-import { arsal } from "../assets";
+import { asfand } from "../assets";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <div
@@ -52,23 +52,13 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Hello! I'm Arsal Azam, a Germany-based Full-Stack Developer proficient
-          in an array of modern technologies including Python 3, JavaScript
-          ES6+, SQL, Django 4, MongoDB, Node.js, React, and more. I'm passionate
-          about creating dynamic, efficient, and user-friendly web applications.
-          I have hands-on experience in developing e-commerce platforms,
-          utilizing technologies such as Next.js, Strapi, Tailwind, Firebase,
-          and Redux. I am also experienced in managing the full project
-          lifecycle from setup to deployment. My journey in tech is supported by
-          my prior experiences, including my time as an independent contractor
-          for software companies, which honed my skills in teamwork,
-          problem-solving, and operations management. Feel free to explore my
+          Hello! I'm Asfand Yar Khan, a Data Scientist and Software Engineer with 3+ years of experience across machine learning, backend development, and MLOps. I'm skilled in designing scalable APIs, deploying ML models in cloud-native environments such as Kubernetes, Docker, and Google Cloud Platform, and building robust data pipelines. My strong command includes Python, Java, Spring Boot, and ML frameworks including PyTorch and TensorFlow. I'm experienced in time series forecasting, model tracking with MLflow, and full SDLC delivery. Currently working as an AI Engineer at Körber Supply Chain Logistics GmbH, I focus on synthetic data generation, model deployment, and MLOps practices. Feel free to explore my
           projects and get in touch at{" "}
           <a
-            href="mailto:arsalazam@gmail.com"
+            href="mailto:a.yar86.ay@gmail.com"
             className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
           >
-            arsalazam@gmail.com.
+            a.yar86.ay@gmail.com
           </a>{" "}
           I'm always open to new opportunities and collaborations!{" "}
         </p>
@@ -82,15 +72,15 @@ const About = () => {
               className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden"
             >
               <img
-                src={arsal}
-                alt="arsal"
+                src={asfand}
+                alt="asfand"
                 className="w-full h-full object-contain"
               />
             </div>
           </div>
         </Tilt>
       </div>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-40 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://arsalazam.vercel.app"><strong>🚀 View Demo</strong></a>
+    <a href="https://asfandkhan.vercel.app"><strong>🚀 View Demo</strong></a>
 </p>
 
 ## About The Project
@@ -42,7 +42,7 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```sh
-git clone https://github.com/arsaz101/3d_portfolio_arsaz.git
+git clone https://github.com/asfandkhan/3d_portfolio.git
 ```
 
 2. Install NPM packages
